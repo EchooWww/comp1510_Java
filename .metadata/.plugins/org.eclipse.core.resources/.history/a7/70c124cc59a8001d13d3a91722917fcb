@@ -1,0 +1,58 @@
+package ca.bcit.comp1510.lab04;
+
+import java.util.Scanner;
+
+/**
+ * Demonstrates the creation and use of a user-defined class.
+ * 
+ * @author Lewis & Loftus 9e &Echo
+ * @author BCIT
+ * @version 2023
+ */
+public class RollingMultiDice {
+    /**
+     * Driver program creates two Die objects and rolls them.
+     * @param args command-line arguments (unused)
+     */
+    public static void main(String[] args) {
+        
+        final int newFace = 4;        
+        //ask the user to specify the number of sides of a die 
+        // (input a parameter for the new object)
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Please enter the number of sides your die has: ");
+        int input = scan.nextInt();
+        scan.close();
+        
+        //create 2 new dices of the input sides number
+        MultiDie die1 = new MultiDie(input);
+        MultiDie die2 = new MultiDie(input);
+        int sum;
+        die1.max = 3;
+        
+        System.out.println("Number of sides on a die is " + die1.max);
+
+        //roll the 2 dices, print each value
+        die1.roll();
+        die2.roll();
+        System.out.println("First roll of two dices. \nDie One: " + die1 
+                + ", Die Two: " + die2);
+        
+        //set die2 as a specific value of 4, roll die1, print the values
+        die1.roll();
+        die2.setFaceValue(newFace);
+        System.out.println("Set Die two and roll Die one. \nDie One: " + die1 
+                + ", Die Two: " + die2);
+        
+        //add the values and print
+        sum = die1.getFaceValue() + die2.getFaceValue();
+        System.out.println("Sum: " + sum);
+        
+        //roll the 2 dices again, print each value and the sum of the 2
+        sum = die1.roll() + die2.roll();
+        System.out.println("Second roll of two dices. \nDie One: " + die1 
+                + ", Die Two: " + die2);
+        System.out.println("New sum: " + sum);
+    }
+}
+

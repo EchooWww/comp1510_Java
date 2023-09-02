@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 4 elements from project &apos;Comp1510-assign-3-template&apos;&#x0A;- Original project: &apos;Comp1510-assign-3-template&apos;&#x0A;- Original elements:&#x0A;     q2.Timesheet.java&#x0A;     q2.TimesheetRow.java&#x0A;     q2.TimesheetRowTest.java&#x0A;     q2.TimesheetTest.java" description="Delete elements" element1="/src&lt;q2{Timesheet.java" element2="/src&lt;q2{TimesheetRowTest.java" element3="/src&lt;q2{TimesheetRow.java" element4="/src&lt;q2{TimesheetTest.java" elements="4" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1679819355528" subPackages="false" version="1.0"/>
+</session>

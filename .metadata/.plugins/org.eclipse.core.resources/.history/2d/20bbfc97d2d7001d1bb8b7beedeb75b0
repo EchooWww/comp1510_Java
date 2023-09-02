@@ -1,0 +1,13 @@
+package Circle;
+import java.util.Scanner;
+/**
+ * Cube: to represent a cube concept.
+ * @author Echo Wang - set 1C;
+ * @version 1.0
+ *
+ */
+public class Cube {
+   public static void main(String []args) {
+       System.out.println(2.3434234243241*(3.0/2.3434234243241) == 3.0);
+   }
+}

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jdt.ui.wizards.NewSourceFolderCreationWizard"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.jdt.ui.java"/>
+			<item value="org.eclipse.jdt.ui.java/org.eclipse.jdt.junit"/>
+		</list>
+	</section>
+	<section name="ImportExportAction">
+		<item key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID" value="org.eclipse.ui.wizards.export.ZipFile"/>
+		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+	</section>
+	<section name="ZipFileExportWizard">
+		<item key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID" value="true"/>
+		<item key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID" value="true"/>
+		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="/Users/echo/Desktop/CST-T1/COMP1510/labs/Comp1510Lab11WangE.zip"/>
+			<item value="/Users/echo/Desktop/CST-T1/COMP1510/labs/Comp1510Lab10WangE.zip"/>
+			<item value="/Users/echo/Desktop/CST-T1/COMP1510/labs/Comp1510Lab09WangE.zip"/>
+			<item value="/Users/echo/Desktop/CST-T1/COMP1510/labs/Comp1510Lab08WangE.zip"/>
+			<item value="/Users/echo/Desktop/CST-T1/COMP1510/labs/Comp1510Lab07WangE.zip"/>
+			<item value="/Users/echo/Desktop/CST-T1/COMP1510/labs/Comp1510Lab06WangE.zip"/>
+			<item value="/Users/echo/Desktop/CST-T1/COMP1510/labs/Comp1510Lab05WangE.zip"/>
+			<item value="/Users/echo/Desktop/CST-T1/COMP1510/labs/Comp1510Lab04WangE.zip"/>
+			<item value="/Users/echo/Desktop/Comp1510Lab03WangE.zip"/>
+			<item value="/Users/echo/Desktop/Comp1510Lab02WangE.zip"/>
+			<item value="/Users/echo/Desktop/Comp1510Lab01WangE.zip"/>
+			<item value="/Users/echo/Desktop/Comp1510Lab01WangY.zip"/>
+		</list>
+	</section>
+</section>

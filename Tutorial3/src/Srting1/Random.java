@@ -1,0 +1,9 @@
+package Srting1;
+
+public class Random {
+        public static void main(String[] args) {
+            double x = 0;
+            System.out.println(3.0==x*(3.0/x));
+        }
+  
+    }
